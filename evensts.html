@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events</title>
+    <link rel="stylesheet" href="events.css" />
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FOnts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aladin&family=Caveat:wght@400..700&family=Comfortaa:wght@300..700&family=Handjet:wght@100..900&family=Kalam:wght@300;400;700&family=Laila:wght@300;400;500;600;700&family=Londrina+Sketch&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- preloader -->
+    <div id="preloader"></div>
+    <!-- header -->
+    <header class="text-gray-400 bg-gray-900 body-font">
+      <div
+        class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
+      >
+        <a
+          class="flex title-font font-medium items-center text-white mb-4 md:mb-0"
+        >
+          <img
+            src="images/GHSS.jpg"
+            alt="Logo"
+            class="w-20 h-20 rounded-full mr-3"
+          />
+          <span class="ml-3 text-xl">GHSS Zoohama</span>
+        </a>
+        <nav
+          class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center"
+        >
+          <a href="#" class="mr-5 hover:text-white">Home</a>
+          <a href="#" class="mr-5 hover:text-white">Gallery</a>
+          <a href="#" class="mr-5 hover:text-white">IT</a>
+          <a href="admisiion.html" class="mr-5 hover:text-white">Get addmission</a>
+        </nav>
+        <button
+          class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
+        >
+          <a href="#">Contact Us</a>
+          <svg
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            class="w-4 h-4 ml-1"
+            viewBox="0 0 24 24"
+          >
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <!-- ends here the header -->
+    <section class="py-16 bg-gray-900 text-white">
+      <div class="container mx-auto px-6">
+        <!-- Section Title -->
+        <div class="text-center mb-12">
+          <h2 class="text-4xl font-bold text-white animate-fade-in-up">
+            School Events
+          </h2>
+          <p class="mt-2 text-lg text-gray-400 animate-fade-in-up delay-200">
+            Discover the exciting events happening at our school this year!
+          </p>
+        </div>
+
+        <!-- Events Grid -->
+        <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <!-- Event Card -->
+          <div
+            class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition-all duration-300 hover:scale-105 animate-fade-in"
+          >
+            <img
+              class="w-full h-56 object-cover"
+              src="images/GHSS.jpg"
+              alt="Science Fair"
+            />
+            <div class="p-6">
+              <h3 class="text-2xl font-semibold text-white">
+                Science Fair 2024
+              </h3>
+              <p class="mt-3 text-gray-400">
+                Dive into innovation and explore futuristic projects by our
+                young scientists.
+              </p>
+              <p class="mt-3 text-sm font-bold text-blue-400">
+                Date: Jan 15, 2024
+              </p>
+              <button
+                class="mt-4 bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition-all duration-300"
+              >
+                Learn More
+              </button>
+            </div>
+          </div>
+
+          <!-- Event Card -->
+          <div
+            class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition-all duration-300 hover:scale-105 animate-fade-in delay-200"
+          >
+            <img
+              class="w-full h-56 object-cover"
+              src="images/GHSS.jpg"
+              alt="Sports Day"
+            />
+            <div class="p-6">
+              <h3 class="text-2xl font-semibold text-white">Sports Day</h3>
+              <p class="mt-3 text-gray-400">
+                Unleash the spirit of sportsmanship in our thrilling annual
+                competitions.
+              </p>
+              <p class="mt-3 text-sm font-bold text-blue-400">
+                Date: Feb 10, 2024
+              </p>
+              <button
+                class="mt-4 bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition-all duration-300"
+              >
+                Learn More
+              </button>
+            </div>
+          </div>
+
+          <!-- Event Card -->
+          <div
+            class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition-all duration-300 hover:scale-105 animate-fade-in delay-400"
+          >
+            <img
+              class="w-full h-56 object-cover"
+              src="images/GHSS.jpg"
+              alt="Art Exhibition"
+            />
+            <div class="p-6">
+              <h3 class="text-2xl font-semibold text-white">Art Exhibition</h3>
+              <p class="mt-3 text-gray-400">
+                Celebrate creativity at our gallery showcasing stunning student
+                artworks.
+              </p>
+              <p class="mt-3 text-sm font-bold text-blue-400">
+                Date: Mar 5, 2024
+              </p>
+              <button
+                class="mt-4 bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition-all duration-300"
+              >
+                Learn More
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tailwind Animations -->
+    <style>
+      @keyframes fade-in-up {
+        0% {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .animate-fade-in-up {
+        animation: fade-in-up 0.8s ease-in-out;
+      }
+      .animate-fade-in {
+        animation: fade-in 1s ease-in-out;
+      }
+      .delay-200 {
+        animation-delay: 0.2s;
+      }
+      .delay-400 {
+        animation-delay: 0.4s;
+      }
+    </style>
+    <!-- something contcact us  from here -->
+    <section class="text-gray-400 bg-gray-900 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="text-center mb-20">
+          <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-white mb-4">GHSS Zoohama – Where curiosity meets excellence!</h1>
+          <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">GHSS Zoohama: Where excellence in education meets innovation, nurturing young minds through cutting-edge facilities, dedicated mentorship, and a holistic approach to growth and development.</p>
+        </div>
+        <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+          <div class="p-2 sm:w-1/2 w-full">
+            <div class="bg-gray-800 rounded flex p-4 h-full items-center">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-400 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                <path d="M22 4L12 14.01l-3-3"></path>
+              </svg>
+              <span class="title-font font-medium text-white">GHSS Zoohama offers top-notch science labs that bring learning to life.</span>
+            </div>
+          </div>
+          <div class="p-2 sm:w-1/2 w-full">
+            <div class="bg-gray-800 rounded flex p-4 h-full items-center">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-400 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                <path d="M22 4L12 14.01l-3-3"></path>
+              </svg>
+              <span class="title-font font-medium text-white">Our computer lab is equipped with the latest tech to enhance digital skills.</span>
+            </div>
+          </div>
+          <div class="p-2 sm:w-1/2 w-full">
+            <div class="bg-gray-800 rounded flex p-4 h-full items-center">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-400 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                <path d="M22 4L12 14.01l-3-3"></path>
+              </svg>
+              <span class="title-font font-medium text-white">The school library is a treasure trove, perfect for reading and research.</span>
+            </div>
+          </div>
+          <div class="p-2 sm:w-1/2 w-full">
+            <div class="bg-gray-800 rounded flex p-4 h-full items-center">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-400 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                <path d="M22 4L12 14.01l-3-3"></path>
+              </svg>
+              <span class="title-font font-medium text-white">We have excellent sports facilities that help students stay fit and active.</span>
+            </div>
+          </div>
+          <div class="p-2 sm:w-1/2 w-full">
+            <div class="bg-gray-800 rounded flex p-4 h-full items-center">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-400 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                <path d="M22 4L12 14.01l-3-3"></path>
+              </svg>
+              <span class="title-font font-medium text-white">Dedicated teachers provide personalized attention to every student.</span>
+            </div>
+          </div>
+          <div class="p-2 sm:w-1/2 w-full">
+            <div class="bg-gray-800 rounded flex p-4 h-full items-center">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-400 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                <path d="M22 4L12 14.01l-3-3"></path>
+              </svg>
+              <span class="title-font font-medium text-white">GHSS Zoohama fosters both academic and personal growth for every learner.</span>
+            </div>
+          </div>
+        </div>
+        <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"><a href="#">Have a Look</a></button>
+      </div>
+    </section>
+    <!-- faq section -->
+    <section class="py-10 bg-gray-900 text-white">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-8">Frequently Asked Questions</h2>
+        <div class="space-y-4">
+          <div class="bg-gray-800 rounded-lg overflow-hidden shadow">
+            <button class="w-full flex justify-between items-center px-6 py-4 text-left font-medium focus:outline-none" onclick="toggleFAQ('faq1')">
+              <span>What are the school timings?</span>
+              <svg id="icon-faq1" class="w-5 h-5 transform transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div id="faq1" class="hidden px-6 pb-4 text-gray-400 transition-opacity duration-500 ease-in-out">
+              School timings are from 8:00 AM to 3:00 PM, Monday to Friday.
+            </div>
+          </div>
+    
+          <div class="bg-gray-800 rounded-lg overflow-hidden shadow">
+            <button class="w-full flex justify-between items-center px-6 py-4 text-left font-medium focus:outline-none" onclick="toggleFAQ('faq2')">
+              <span>How can I apply for admission?</span>
+              <svg id="icon-faq2" class="w-5 h-5 transform transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div id="faq2" class="hidden px-6 pb-4 text-gray-400 transition-opacity duration-500 ease-in-out">
+              You can apply for admission online through our website or by visiting the school office.
+            </div>
+          </div>
+    
+          <div class="bg-gray-800 rounded-lg overflow-hidden shadow">
+            <button class="w-full flex justify-between items-center px-6 py-4 text-left font-medium focus:outline-none" onclick="toggleFAQ('faq3')">
+              <span>What extracurricular activities are offered?</span>
+              <svg id="icon-faq3" class="w-5 h-5 transform transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div id="faq3" class="hidden px-6 pb-4 text-gray-400 transition-opacity duration-500 ease-in-out">
+              We offer sports, arts, music, drama, debate clubs, and various other extracurricular activities.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <script>
+      function toggleFAQ(id) {
+        const faqContent = document.getElementById(id);
+        const icon = document.getElementById('icon-' + id);
+        if (faqContent.classList.contains('hidden')) {
+          faqContent.classList.remove('hidden');
+          faqContent.classList.add('opacity-100');
+          icon.classList.add('rotate-180');
+        } else {
+          faqContent.classList.add('hidden');
+          faqContent.classList.remove('opacity-100');
+          icon.classList.remove('rotate-180');
+        }
+      }
+    </script>
+    
+    <!-- footer -->
+    <footer class="text-gray-400 bg-gray-900 body-font">
+      <div
+        class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col"
+      >
+        <a
+          class="flex title-font font-medium items-center md:justify-start justify-center text-white"
+        >
+          <img
+            src="images/GHSS.jpg"
+            alt="Logo"
+            class="w-20 h-20 rounded-full mr-3"
+          />
+          <span class="ml-3 text-xl">GHSS Zoohama</span>
+        </a>
+        <p
+          class="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4"
+        >
+          © 2024 GHSS —
+          <a
+            href="#"
+            class="text-gray-500 ml-1"
+            target="_blank"
+            rel="noopener noreferrer"
+            >@Xuhaib</a
+          >
+        </p>
+        <span
+          class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"
+        >
+          <a class="text-gray-400">
+            <svg
+              fill="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+              ></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-400">
+            <svg
+              fill="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
+              ></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-400">
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path
+                d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"
+              ></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-400">
+            <svg
+              fill="currentColor"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="0"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="none"
+                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+              ></path>
+              <circle cx="4" cy="4" r="2" stroke="none"></circle>
+            </svg>
+          </a>
+        </span>
+      </div>
+    </footer>
+
+    <!-- js links -->
+    <script src="events.js"></script>
+  </body>
+</html>

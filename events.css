@@ -1,0 +1,13 @@
+*{
+      font-family: "Sour Gummy", sans-serif;
+        
+      }
+      
+
+#preloader{
+background: white url(images/6cec803ecf734c9a05294ac8ddd623dc.gif ) no-repeat center center;
+position: fixed;
+height: 100vh;
+width: 100%;
+z-index: 100;
+}
